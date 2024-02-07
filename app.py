@@ -16,6 +16,9 @@ def shuffle():
 @app.route("/anders")
 def anders():
     return render_template("anders.html")
+@app.route('/andreas2')
+def andreas2():
+    return render_template('/andreas2.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
