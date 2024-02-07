@@ -30,6 +30,10 @@ def andreas3():
 def anders1():
     return render_template("anders1.html")
 
+@app.route("/anders2")
+def anders2():
+    return render_template("anders1.html")
+
 
 if __name__ == '__main__':
     app.run(debug=True)
