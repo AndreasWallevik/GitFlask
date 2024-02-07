@@ -13,7 +13,9 @@ def index():
 def shuffle():
     return render_template('andreas.html', word=get_shuffled_word())
 
-
+@app.route('/andreas2')
+def andreas2():
+    return render_template('/andreas2.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
